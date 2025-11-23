@@ -1,2 +1,3 @@
-# inpe-alertas
-Repositorio do projeto de Integração e Entrega Continua
+# Aplicativo INPE - Monitoramento de Eventos Climáticos
+
+Objetivo: app móvel para alertas de queimadas, inundações, desmatamentos e relatos da população em tempo real.
