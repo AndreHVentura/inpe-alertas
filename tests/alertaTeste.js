@@ -17,9 +17,7 @@ describe('Classificação de Alertas', () => {
     expect(classificarAlerta(30)).toBe("Baixo");
   });
 
-  // Exercício 3 - Teste com erro (proposital)
-  test("teste com erro proposital - deve falhar", () => {
-    // Este teste vai falhar propositalmente
-    expect(classificarAlerta(90)).toBe("Alto"); // Erro: deveria ser "Critico"
-  });
+  test("teste com erro proposital", () => {
+    expect(classificarAlerta(90)).toBe("Alto"); // Deveria ser "Crítico"
+});
 });

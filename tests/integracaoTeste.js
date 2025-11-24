@@ -6,3 +6,4 @@ test("classificação + notificação", () => {
   const resultado = enviarNotificacao(alerta);
   expect(resultado).toBe("Notificação enviada: Critico");
 });
+
