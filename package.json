@@ -1,0 +1,17 @@
+{
+  "name": "mpe-alertas",
+  "version": "1.0.0",
+  "description": "Aplicativo de monitoramento de Eventos Climáticos - INPE",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  },
+  "keywords": ["inpe", "alertas", "climáticos"],
+  "author": "Seu Nome",
+  "license": "MIT"
+}
